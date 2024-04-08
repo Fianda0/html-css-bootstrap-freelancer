@@ -32,3 +32,8 @@ hr {
     display: flex;
     justify-content: center;
 }
+
+.element-contact hr {
+    width: 100%;
+    border: 1px solid lightgrey;
+}
