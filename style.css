@@ -11,3 +11,13 @@ body {
 a {
     text-decoration: none;
 }
+
+.jumbotrone img {
+    width: 20%;
+}
+
+hr {
+    opacity: 1;
+    border: 1px solid;
+    width: 100px;
+}
