@@ -12,6 +12,12 @@ a {
     text-decoration: none;
 }
 
+img {
+    width: 50%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
 .jumbotrone img {
     width: 20%;
 }
@@ -20,4 +26,9 @@ hr {
     opacity: 1;
     border: 1px solid;
     width: 100px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
 }
