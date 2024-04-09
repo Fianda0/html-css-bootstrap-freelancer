@@ -19,23 +19,27 @@
     <header class="bg-dark">
 
         <!-- container boxed -->
-        <div class="container">
-
-            <div class="row py-3 d-flex align-items-center">
-
-                <!-- Logo -->
-                <div class="col-6 text-white">
-                    <div class="logo fs-2 fw-bold">START BOOTSTRAP</div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container justify-content-between">
+                <div>
+                    <a class="navbar-brand text-white" href="#">START BOOTSTRAP</a>
                 </div>
-
-                <!-- link -->
-                <div class="col-6 d-flex justify-content-end fs-4">
-                    <a class="px-2 text-white" href="">PORTFOLIO</a>
-                    <a class="px-2 text-white" href="">ABOUT</a>
-                    <a class="px-2 text-white" href="">CONTACT</a>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active text-white" aria-current="page" href="#">PORTFOLIO</a>
+                        <a class="nav-link text-white" href="#">ABOUT</a>
+                        <a class="nav-link text-white" href="#">CONTACT</a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </nav>
     </header>
     <!-- Fine header -->
 
@@ -47,8 +51,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 d-flex flex-column align-items-center py-5 text-white">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Antu_paint-none.svg/640px-Antu_paint-none.svg.png"
-                            alt="">
+                        <img src="./img/avatar.svg" alt="">
                         <h1 class="fw-bold">START BOOTSTRAP</h1>
                         <div class="d-flex align-items-center">
                             <hr>
@@ -78,33 +81,27 @@
 
                 <div class="row gy-4">
                     <div class="col-4">
-                        <div class="box bg-danger p-3"><img
-                                src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Image_of_none.svg" alt="">
+                        <div class="box "><img class="w-100" src="./img/cabin.png" alt="">
                         </div>
                     </div>
                     <div class="col-4">
-                        <div class="box bg-danger p-3"><img
-                                src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Image_of_none.svg" alt="">
+                        <div class="box "><img class="w-100" src="./img/cake.png" alt="">
                         </div>
                     </div>
                     <div class="col-4">
-                        <div class="box bg-danger p-3"><img
-                                src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Image_of_none.svg" alt="">
+                        <div class="box "><img class="w-100" src="./img/circus.png" alt="">
                         </div>
                     </div>
                     <div class="col-4">
-                        <div class="box bg-danger p-3"><img
-                                src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Image_of_none.svg" alt="">
+                        <div class="box "><img class="w-100" src="./img/game.png" alt="">
                         </div>
                     </div>
                     <div class="col-4">
-                        <div class="box bg-danger p-3"><img
-                                src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Image_of_none.svg" alt="">
+                        <div class="box "><img class="w-100" src="./img/safe.png" alt="">
                         </div>
                     </div>
                     <div class="col-4">
-                        <div class="box bg-danger p-3"><img
-                                src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Image_of_none.svg" alt="">
+                        <div class="box "><img class="w-100" src="./img/submarine.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -159,7 +156,17 @@
                     </div>
                 </div>
 
-                <div class="row px-5 element-contact">
+                <div class="row px-5">
+                    <input type="text" placeholder="Nome">
+                    <input type="email" placeholder="Email addres">
+                    <input type="number" placeholder="Phone number" name="" id="">
+                    <input type="text" class="pb-5" placeholder="Message" name="" id="">
+                    <span class="mt-5">
+                        <a class="text-white p-2 bg-success">Send</a>
+                    </span>
+                </div>
+
+                <!-- <div class="row px-5 element-contact">
                     <div class="col-12">Name
                         <hr>
                     </div>
@@ -176,7 +183,7 @@
                         <hr>
                         <a class="bg-success p-2 text-white rounded-3" href="">Send</a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
 

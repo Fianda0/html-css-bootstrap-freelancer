@@ -14,8 +14,11 @@ a {
 
 img {
     width: 50%;
-    aspect-ratio: 1;
     object-fit: cover;
+}
+
+.portfolio img {
+    border-radius: 20px;
 }
 
 .jumbotrone img {
@@ -44,4 +47,12 @@ hr {
 
 .information a {
     color: chartreuse;
+}
+
+input {
+    padding: 1rem;
+    border-left: transparent;
+    border-top: transparent;
+    border-right: transparent;
+    border-bottom: 2px solid lightgrey;
 }
